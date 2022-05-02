@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="#">
+    <div>
+      <label for="primeironome">Primeiro nome</label> <br>
+      <input id="primeironome" type="text" name="Primeiro Nome"> <br>
+    </div>
+    <div>
+      <label for="receberemails">Deseja receber e-mails de promomoções?</label>
+      <input id="receberemails" type="checkbox" name="receberemails"> <br>
+    </div>
+    <div>
+      <label>Sexo:</label> <br>
+
+      <input id="sexomasculino" type="radio" name="sexo" value="masculino">
+      <label for="sexomasculino">Masculino</label> <br>
+
+      <input id="sexofeminino" type="radio" name="sexo" value="feminino">
+      <label for="sexofeminino">Ferminino</label> <br>
+
+      <input id="outros" type="radio" name="sexo" value="outros">
+      <label for="outros">Outros</label> <br><br>
+
+      <label for="Cidade">Cidade:</label> <br>
+      <select name="cidade" id="cidade">
+        <option value="sao-paulo">São Paulo</option>
+        <option value="rio">Rio de Janeiro</option>
+      </select> <br> <br>
+
+      <label for="observacoes">Observações:</label> <br>
+      <textarea name="observacoes" id="observacoes" cols="20" rows="5"></textarea>
+
+    </div>
+    <div>
+      <input type="submit" value="Enviar">
+    </div>
+  </form>
+</body>
+
+</html>
