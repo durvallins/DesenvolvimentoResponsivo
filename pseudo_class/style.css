@@ -1,0 +1,45 @@
+/* Pseudo classes*/
+a:hover{
+  font-size: 25px;
+}
+
+div:hover{
+  background: red;
+}
+
+p:first-child{
+  border: 1px solid #000;
+}
+
+p:last-child{
+  border: 1px solid #f00;
+}
+
+p:nth-child(odd){
+  background: blue;
+}
+
+p:nth-child(even){
+  background: rgb(19, 178, 181);
+}
+
+/* Pseudo elementos*/
+p::first-letter{
+  font-size: 25px;
+}
+
+p::first-line{
+  font-size: 25px;
+}
+
+p::selection{
+  background: red;
+}
+
+h1::before{
+  content: 'asda'
+}
+
+h1::after{
+  content: '| texto depois'
+}
