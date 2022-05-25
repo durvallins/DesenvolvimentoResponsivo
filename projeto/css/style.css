@@ -34,6 +34,7 @@ body{
   padding: 15px;
 }
 
+/* LOGO */
 .logo{
   background-image: url("../../img/logotipo-preto.png");
   background-repeat: no-repeat;
@@ -50,6 +51,7 @@ body{
 
 }
 
+/* MENU PRINCIPAL */
 .menu-principal__btn{
   display: block;
   width: 50px;
