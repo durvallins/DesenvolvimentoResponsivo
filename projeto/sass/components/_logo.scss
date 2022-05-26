@@ -7,10 +7,9 @@
   height: 53px;
   text-indent: -9999px;
   margin: 0;
-}
 
-.logo--branco{
-  background-image: url("../../img/logotipo-branco.png");
-  background-repeat: no-repeat;
-
+  &--branco{
+    background-image: url("../../img/logotipo-branco.png");
+    background-repeat: no-repeat;
+  }
 }
