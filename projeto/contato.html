@@ -12,22 +12,24 @@
 <body>
   <header>
     <header class="cabecalho">
-      <a href="index.html" class="logo">Dsign Responsivo</a>
-      <nav class="menu-principal">
-        <button class="menu-principal__btn">Abrir/fechar menu</button>
-        <ul class="menu-principal__lista">
-          <li><a class="menu-principal__item" href="index.html">Home</a></li>
-          <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
-          <li><a class="menu-principal__item" href="Portfolio.html">Portfólio</a></li>
-          <li><a class="menu-principal__item menu-principal__item--atual" href="contato.html">Contato</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <a href="index.html" class="logo">Dsign Responsivo</a>
+        <nav class="menu-principal">
+          <button class="menu-principal__btn">Abrir/fechar menu</button>
+          <ul class="menu-principal__lista">
+            <li><a class="menu-principal__item" href="index.html">Home</a></li>
+            <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
+            <li><a class="menu-principal__item" href="Portfolio.html">Portfólio</a></li>
+            <li><a class="menu-principal__item menu-principal__item--atual" href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div> <!-- Fim container -->
     </header>
     <main>
-    <header class="pagina-cabecalho">
-      <h1 class="pagina-cabecalho__titulo">Contato</h1>
-    </header>
-      <section class="pagina-conteudo">
+      <header class="pagina-cabecalho">
+        <h1 class="pagina-cabecalho__titulo">Contato</h1>
+      </header>
+      <section class="container pagina-conteudo">
         <p class="text-center">
           Sou [seu nome] da [nome da empresa] e estou tentando descobrir quem seria a melhor pessoa possível para iscutir [problema que a solução que você oferece soluciona] em sua empresa.
         </p>
@@ -54,41 +56,40 @@
           Sou [seu nome] da [nome da empresa] e estou tentando descobrir quem seria a melhor pessoa possível para <br>
           discutir [problema que a solução que você oferece soluciona] em sua empresa.
         </p>
-
-        <!-- MAPA -->
-        <div class="mapa">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9390.62821151505!2d-35.98884474916272!3d-8.275623949581778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1651465683152!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
       </section>
-    </header>
+    <div class="mapa"> <!-- MAPA -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9390.62821151505!2d-35.98884474916272!3d-8.275623949581778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1651465683152!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
   </main>
 
   <!-- Rodapé -->
   <footer class="rodape">
     <div class="rodape__linha-1">
-      <div class="rodape__coluna">
-        <a href="index.html" class="logo logo--branco">Dsign Responsivo</a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque earum illum quibusdam quia facilis
-          fugit cupiditate consequatur, reiciendis quas voluptates! Asperiores minima voluptatem libero sit recusandae
-          porro magnam voluptas.</p>
-      </div>
-      <div class="rodape__coluna">
-        <h2 class="rodape__titulo">Social</h2>
-        <ul class="rodape__lista-links">
-          <li><a class="rodape__lista-links__item" href="https://twitter.com" target="_blank">Twitter</a></li>
-          <li><a class="rodape__lista-links__item" href="https://facebook.com" target="_blank">Facebook </a></li>
-          <li><a class="rodape__lista-links__item" href="https://instagram.com" target="_blank">Instagram</a></li>
-        </ul>
-      </div>
-      <div class="rodape__coluna">
-        <h2 class="rodape__titulo">Links</h2>
-        <ul class="rodape__lista-links">
-          <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
-          <li><a class="rodape__lista-links__item" href="sobre.html">Sobre nós</a></li>
-          <li><a class="rodape__lista-links__item" href="Portfolio.html">Portfólio</a></li>
-          <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
-        </ul>
-      </div>
+      <div class="container">
+        <div class="rodape__coluna">
+          <a href="index.html" class="logo logo--branco">Dsign Responsivo</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eaque earum illum quibusdam quia facilis
+            fugit cupiditate consequatur, reiciendis quas voluptates! Asperiores minima voluptatem libero sit recusandae
+            porro magnam voluptas.</p>
+        </div>
+        <div class="rodape__coluna">
+          <h2 class="rodape__titulo">Social</h2>
+          <ul class="rodape__lista-links">
+            <li><a class="rodape__lista-links__item" href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a class="rodape__lista-links__item" href="https://facebook.com" target="_blank">Facebook </a></li>
+            <li><a class="rodape__lista-links__item" href="https://instagram.com" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="rodape__coluna">
+          <h2 class="rodape__titulo">Links</h2>
+          <ul class="rodape__lista-links">
+            <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
+            <li><a class="rodape__lista-links__item" href="sobre.html">Sobre nós</a></li>
+            <li><a class="rodape__lista-links__item" href="Portfolio.html">Portfólio</a></li>
+            <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div> <!-- Fim container -->
     </div>
     <div class="rodape__linha-2">
       © 2022 - Todos os direitos reservados - Durval Neto

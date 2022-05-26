@@ -1,0 +1,17 @@
+.container{
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media(min-width: $breakpint-sm){
+      width: 540px;
+  }
+  @media(min-width: $breakpint-md){
+      width: 720px;
+  }
+  @media(min-width: $breakpint-lg){
+      width: 960px;
+  }
+  @media(min-width: $breakpint-xl){
+      width: 1140px;
+  }
+}

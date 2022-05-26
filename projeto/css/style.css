@@ -329,9 +329,47 @@ img {
 body {
   font-family: "Source Sans Pro"; }
 
-.cabecalho {
-  background: #fff;
-  padding: 15px; }
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px; } }
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px; } }
+
+@media (min-width: 792px) {
+  .container {
+    width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px; } }
+
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px; } }
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px; } }
+
+@media (min-width: 792px) {
+  .container {
+    width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px; } }
 
 /* RODAPÉ */
 .rodape {

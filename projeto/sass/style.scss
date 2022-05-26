@@ -1,5 +1,6 @@
 // Abstracts
 @import 'abstracts/_cores';
+@import 'abstracts/breakpints';
 
 // Base
 @import 'base/_normalize';
@@ -7,7 +8,8 @@
 @import 'base/_meu-reset';
 
 // Layout
-@import 'layout/_cabecalho';
+@import 'layout/_container';
+@import 'layout/_container';
 @import 'layout/_rodape';
 
 // Componentes
